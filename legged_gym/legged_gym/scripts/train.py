@@ -49,8 +49,8 @@ def train(args):
     if args.debug:
         mode = "disabled"
         args.rows = 10
-        args.cols = 8
-        args.num_envs = 64
+        args.cols = 20
+        args.num_envs = 8000
     else:
         mode = "online"
     
